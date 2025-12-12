@@ -1,11 +1,17 @@
 return {
-  -- add gruvbox
-  { "slugbyte/lackluster.nvim" },
+  {
+    "EdenEast/nightfox.nvim",
+    opts = {
+      palettes = {
+        terafox = {},
+      },
+    },
+  },
 
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "lackluster-night",
+      colorscheme = "terafox",
     },
   },
 }
